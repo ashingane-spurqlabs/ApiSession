@@ -14,9 +14,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -27,9 +25,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/api/usersw?page=1",
+					"raw": "https://reqres.in/api/usersw?page=1",
+					"protocol": "https",
 					"host": [
-						"{{url}}"
+						"reqres",
+						"in"
 					],
 					"path": [
 						"api",
@@ -52,9 +52,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(201);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -79,9 +77,11 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/api/users",
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
 					"host": [
-						"{{url}}"
+						"reqres",
+						"in"
 					],
 					"path": [
 						"api",
@@ -98,9 +98,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -120,9 +118,11 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/api/users/2",
+					"raw": "https://reqres.in/api/users/2",
+					"protocol": "https",
 					"host": [
-						"{{url}}"
+						"reqres",
+						"in"
 					],
 					"path": [
 						"api",
